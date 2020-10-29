@@ -1,0 +1,162 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-bg_description-mobile {
+  background-image: url(sprite.jpg);
+  background-position: 0px -3839px;
+  width: 979px;
+  height: 1279px;
+}
+.icon-bg_description {
+  background-image: url(sprite.jpg);
+  background-position: 0px -2560px;
+  width: 1920px;
+  height: 1279px;
+}
+.icon-judge_a {
+  background-image: url(sprite.jpg);
+  background-position: -979px -3839px;
+  width: 800px;
+  height: 1237px;
+}
+.icon-judge_a_l {
+  background-image: url(sprite.jpg);
+  background-position: -3840px -1157px;
+  width: 1920px;
+  height: 1080px;
+}
+.icon-judge_b {
+  background-image: url(sprite.jpg);
+  background-position: -3379px -3839px;
+  width: 800px;
+  height: 1236px;
+}
+.icon-judge_b_l {
+  background-image: url(sprite.jpg);
+  background-position: -3840px -2237px;
+  width: 1920px;
+  height: 1071px;
+}
+.icon-judge_c {
+  background-image: url(sprite.jpg);
+  background-position: -4179px -3839px;
+  width: 800px;
+  height: 1236px;
+}
+.icon-judge_c_l {
+  background-image: url(sprite.jpg);
+  background-position: 0px 0px;
+  width: 1920px;
+  height: 1280px;
+}
+.icon-judge_d {
+  background-image: url(sprite.jpg);
+  background-position: -5760px 0px;
+  width: 800px;
+  height: 1236px;
+}
+.icon-judge_d_l {
+  background-image: url(sprite.jpg);
+  background-position: -1920px 0px;
+  width: 1920px;
+  height: 1280px;
+}
+.icon-judge_e {
+  background-image: url(sprite.jpg);
+  background-position: -5760px -1236px;
+  width: 800px;
+  height: 1236px;
+}
+.icon-judge_e_l {
+  background-image: url(sprite.jpg);
+  background-position: -1920px -2560px;
+  width: 1920px;
+  height: 1279px;
+}
+.icon-judge_f {
+  background-image: url(sprite.jpg);
+  background-position: -5760px -2472px;
+  width: 800px;
+  height: 1236px;
+}
+.icon-judge_f_l {
+  background-image: url(sprite.jpg);
+  background-position: 0px -1280px;
+  width: 1920px;
+  height: 1280px;
+}
+.icon-judge_g {
+  background-image: url(sprite.jpg);
+  background-position: -1779px -3839px;
+  width: 800px;
+  height: 1237px;
+}
+.icon-judge_g_l {
+  background-image: url(sprite.jpg);
+  background-position: -1920px -1280px;
+  width: 1920px;
+  height: 1280px;
+}
+.icon-judge_h {
+  background-image: url(sprite.jpg);
+  background-position: -2579px -3839px;
+  width: 800px;
+  height: 1237px;
+}
+.icon-judge_h_l {
+  background-image: url(sprite.jpg);
+  background-position: -3840px 0px;
+  width: 1920px;
+  height: 1157px;
+}
+.icon-team_a {
+  background-image: url(sprite.jpg);
+  background-position: -5760px -3708px;
+  width: 800px;
+  height: 571px;
+}
+.icon-team_b {
+  background-image: url(sprite.jpg);
+  background-position: -5760px -4279px;
+  width: 800px;
+  height: 533px;
+}
+.icon-team_c {
+  background-image: url(sprite.jpg);
+  background-position: 0px -5118px;
+  width: 800px;
+  height: 533px;
+}
+.icon-team_d {
+  background-image: url(sprite.jpg);
+  background-position: -800px -5118px;
+  width: 800px;
+  height: 533px;
+}
+.icon-team_e {
+  background-image: url(sprite.jpg);
+  background-position: -1600px -5118px;
+  width: 800px;
+  height: 533px;
+}
+.icon-team_f {
+  background-image: url(sprite.jpg);
+  background-position: -3840px -3308px;
+  width: 800px;
+  height: 522px;
+}
