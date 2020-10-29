@@ -10,20 +10,20 @@ function compileJS(cb) {
   return src('src/*.js')
   .pipe(uglify())
   .pipe(rename({extname: '.min.js'}))
-  .pipe(dest('dist'))
+  .pipe(dest('dist/j  s'))
   cb()
 }
 
 function SASS() {
   return src('scss/*.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(dest('./css'));
+    .pipe(dest('./dist/css'));
 }
 
 function minifyCSS(cb) {
-  return  gulp.src('css/*.css')
+  return  gulp.src('./dist/css/*.css')
   .pipe(cleanCSS({compatibility: 'ie8'}))
-  .pipe(gulp.dest('clean-css'));
+  .pipe(gulp.dest('./dist/clean-css'));
 }
 
 function defaultTask(cb) {
