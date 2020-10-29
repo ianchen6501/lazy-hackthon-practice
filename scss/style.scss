@@ -315,8 +315,9 @@ ul {
         width: 80%;
         height: 70vh;
         margin: 0 auto;
-        background: url('./../../image/bg_header.png') no-repeat center center;
+        background-image: url('./../../image/sprite.png');
         background-size: 80% auto;
+        background-position: 0px -3750px;
     }
 }
 
@@ -965,7 +966,7 @@ ul {
 
 /* 報名資訊 ------- */
 .subscribe {
-    background: #fff url('./../image/bg_footer.png') no-repeat center center;
+    background: #fff url('./../../image/bg_footer.png') no-repeat center center;
     background-size: auto 380px;
     border-bottom: 3px solid $color_main;
 
