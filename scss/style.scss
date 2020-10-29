@@ -240,7 +240,7 @@ ul {
     .nav__logo {
         @include size(160px,
             45px);
-        background: url('./../image/logo_nav.png') no-repeat center center;
+        background: url('./../../image/logo_nav.png') no-repeat center center;
         background-size: 100% auto;
     }
 
@@ -314,9 +314,11 @@ ul {
     .bg {
         width: 80%;
         height: 70vh;
-        margin: 0 auto;
-        background: url('./../image/bg_header.png') no-repeat center center;
-        background-size: 80% auto;
+        //margin: 0 auto;
+        //background: url('./../../image/sprite.png') no-repeat center center;
+        background-image: url('./../../image/sprite.png');
+        background-position: -5376px -2630px;
+        //background-size: 80% auto;
     }
 }
 
@@ -349,7 +351,7 @@ ul {
     padding: 0;
 
     .description__bg {
-        background: #fff url('./../image/bg_description.jpg') no-repeat center center;
+        background: #fff url('./../../image/bg_description.jpg') no-repeat center center;
         background-size: 100% auto;
         background-attachment: fixed;
 
@@ -411,7 +413,7 @@ ul {
 
     @include mq('tablet-s') {
         background-color: #000;
-        background-image: url('./../image/bg_description-mobile.jpg');
+        background-image: url('./../../image/bg_description-mobile.jpg');
         background-size: 100% auto;
         background-attachment: initial;
     }
@@ -614,7 +616,7 @@ ul {
 /* ------- 歷屆成績 ------- */
 .history {
     text-align: center;
-    background: #000 url('./../image/bg_history.png') repeat-y center center;
+    background: #000 url('./../../image/bg_history.png') repeat-y center center;
     background-attachment: fixed;
     background-size: $width-l auto;
 
@@ -631,7 +633,7 @@ ul {
 /* 歷屆成績 - RWD */
 .history {
     @include mq('tablet-s') {
-        background-image: url('./../image/bg_history-mobile.png');
+        background-image: url('./../../image/bg_history-mobile.png');
         background-size: cover;
         background-attachment: initial;
     }
@@ -965,7 +967,7 @@ ul {
 
 /* 報名資訊 ------- */
 .subscribe {
-    background: #fff url('./../image/bg_footer.png') no-repeat center center;
+    background: #fff url('./../../image/bg_footer.png') no-repeat center center;
     background-size: auto 380px;
     border-bottom: 3px solid $color_main;
 

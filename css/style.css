@@ -216,7 +216,10 @@ ul {
   text-align: center;
   padding: 0; }
   .description .description__bg {
-    background: #fff url("./../image/bg_description.jpg") no-repeat center center;
+    background-image: url(sprite.jpg);
+    background-position: 0px -2560px;
+    width: 1920px;
+    height: 1279px;
     background-size: 100% auto;
     background-attachment: fixed; }
     .description .description__bg .description__inner {

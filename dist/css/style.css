@@ -139,7 +139,7 @@ ul {
   .nav .nav__logo {
     width: 160px;
     height: 45px;
-    background: url("./../image/logo_nav.png") no-repeat center center;
+    background: url("./../../image/logo_nav.png") no-repeat center center;
     background-size: 100% auto; }
   .nav.nav-scrolled .navbar {
     padding: 10px 15px; }
@@ -192,9 +192,8 @@ ul {
   .header .bg {
     width: 80%;
     height: 70vh;
-    margin: 0 auto;
-    background: url("./../image/bg_header.png") no-repeat center center;
-    background-size: 80% auto; }
+    background-image: url("./../../image/sprite.png");
+    background-position: -5376px -2630px; }
 
 /* header - RWD */
 @media screen and (max-width: 1200px) {
@@ -216,7 +215,7 @@ ul {
   text-align: center;
   padding: 0; }
   .description .description__bg {
-    background: #fff url("./../image/bg_description.jpg") no-repeat center center;
+    background: #fff url("./../../image/bg_description.jpg") no-repeat center center;
     background-size: 100% auto;
     background-attachment: fixed; }
     .description .description__bg .description__inner {
@@ -264,7 +263,7 @@ ul {
 @media screen and (max-width: 640px) {
   .description .description__bg {
     background-color: #000;
-    background-image: url("./../image/bg_description-mobile.jpg");
+    background-image: url("./../../image/bg_description-mobile.jpg");
     background-size: 100% auto;
     background-attachment: initial; } }
 
@@ -413,7 +412,7 @@ ul {
 /* ------- 歷屆成績 ------- */
 .history {
   text-align: center;
-  background: #000 url("./../image/bg_history.png") repeat-y center center;
+  background: #000 url("./../../image/bg_history.png") repeat-y center center;
   background-attachment: fixed;
   background-size: 960px auto; }
   .history .history__list {
@@ -426,7 +425,7 @@ ul {
 /* 歷屆成績 - RWD */
 @media screen and (max-width: 640px) {
   .history {
-    background-image: url("./../image/bg_history-mobile.png");
+    background-image: url("./../../image/bg_history-mobile.png");
     background-size: cover;
     background-attachment: initial; } }
 
@@ -681,7 +680,7 @@ ul {
 /* ------- footer ------- */
 /* 報名資訊 ------- */
 .subscribe {
-  background: #fff url("./../image/bg_footer.png") no-repeat center center;
+  background: #fff url("./../../image/bg_footer.png") no-repeat center center;
   background-size: auto 380px;
   border-bottom: 3px solid #FAD312; }
   .subscribe .subscribe__inner {
